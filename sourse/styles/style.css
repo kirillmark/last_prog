@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-box {
+    width: 100%;
+    text-align: center;
+}
+
+hr {
+    color: rgb(73, 73, 235);
+}
+
+.footer-text {
+    margin: auto auto;
+}
+
+footer {
+    background-color: rgb(243, 243, 243);
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.gb_ask {
+    text-align: center;
+}
+
+.sidebar {
+    background-color: rgb(243, 243, 243);
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-bar>p {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.left-bar>img {
+    width: 400px;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
