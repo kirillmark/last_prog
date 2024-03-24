@@ -1,0 +1,19 @@
+body, textarea {
+    font-family: 'Inter', sans-serif;
+}
+
+form {
+    box-sizing: border-box;
+    width: 500px;
+    padding: 32px, 48px;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+}
+
+.form {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 28px;
+}
